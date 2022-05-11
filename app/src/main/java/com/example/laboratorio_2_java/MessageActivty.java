@@ -16,5 +16,6 @@ public class MessageActivty extends AppCompatActivity {
         String message = intent.getStringExtra("Message");
         TextView textView = findViewById(R.id.textView2);
         textView.setText(message);
+
     }
 }
