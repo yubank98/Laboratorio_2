@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Laboratorio_2_Java">
         <activity
+            android:name=".FinalActivity"
+            android:exported="false" />
+        <activity
             android:name=".MessageActivty"
             android:exported="false" />
         <activity

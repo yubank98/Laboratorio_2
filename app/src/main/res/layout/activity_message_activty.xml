@@ -11,6 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView2"
-        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Show_activity"
+        android:onClick="showActivity"
+        tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="276dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
